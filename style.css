@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Lato&display=swap');
+
+*{
+   margin:0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: "lato", "jost", sans-serif;
+   background-image: url(img/ES-es-20210425-popsignuptwoweeks-perspective_alpha_website_small.svg);
+}
+
+.menu {
+   display: flex;
+   justify-content:space-around;
+   margin-top: 10px ;
+}
+
+.options > select{
+   background: transparent;
+   color: #fff;
+   padding: 10px;
+   height: 37%;
+   font-size: 14pt;
+   border:none;
+   border-radius: 5px;
+   line-height: 1;
+}
+
+.options > input[type="submit"]{
+   margin-right: 10px ;
+   padding: 10px;
+   background-color: #D6000F;
+   color:#fff;
+}
+
+.content-box{
+   margin-top: 20vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.text{
+   color:#fff;
+   line-height:2;
+}
+
+.text > h1{
+   font-size: 25pt;
+}
+
+.text > p {
+   font-size: 14pt;
+}
+
+.login{
+   padding: 3vh;
+}
+
+.form-login{
+   margin-top: 20px;
+}
+
+.form-login > input[type="email"]{
+   width: 30%;
+}
+.form-login > input[type="submit"]{
+   background-color: #D6000F;
+   color:#fff;
+}
